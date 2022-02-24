@@ -1,38 +1,195 @@
-.App {
-  text-align: center;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	background-color: rgba(194, 178, 128, 0.5);
+	line-height: 1;
+	color: var(--primary-text);
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*===========================
+      01.COMMON css 
+===========================*/
+
+:root {
+	--primary-white: #f6f3ed;
+	--primary-red: rgb(255, 65, 54);
+	--primary-orange: rgb(255, 179, 64);
+	--primary-yellow: rgb(255, 212, 38);
+	--primary-green: rgb(49, 222, 75);
+	--primary-mint: rgb(102, 212, 207);
+	--primary-teal: rgb(93, 230, 255);
+	--primary-cyan: rgb(112, 215, 255);
+	--primary-blue: rgb(64, 156, 255);
+	--primary-indigo: rgb(125, 122, 255);
+	--primary-purple: rgb(125, 122, 255);
+	--primary-pink: rgb(255, 58, 95);
+	--primary-brown: rgb(181, 148, 105);
+	--primary-light-grey: rgb(244, 244, 244);
+	--primary-grey: rgb(152, 152, 157);
+	--primary-dark-grey: rgb(97, 97, 101);
+	--primary-dark: rgb(0, 0, 0);
+	--primary-text: rgb(17, 46, 81);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+html {
+	/* this makes sure the padding and the border is included in the box sizing */
+	box-sizing: border-box;
+	overflow-x: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+html body {
+	padding: 0;
+	margin: 0;
+	overflow-y: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* a {
+	text-decoration: none !important;
+	color: var(--primary-text) !important;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
 }

@@ -1,0 +1,27 @@
+.justify-self-start {
+	justify-self: flex-start !important;
+}
+
+.about-img {
+	-webkit-filter: grayscale(100%) !important; /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%) !important;
+}
+
+@media screen and (min-width: 768px) {
+	.about-img {
+		width: 200px !important;
+	}
+	/* .about-container {
+		justify-content: center !important;
+	}
+	.about-heading {
+		font-size: 4rem;
+		margin-bottom: 3rem;
+		padding: 0;
+	}
+	.about-text {
+		width: 75% !important;
+		font-size: 2rem;
+		padding-top: 3rem;
+	} */
+}
