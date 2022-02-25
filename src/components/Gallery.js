@@ -13,80 +13,80 @@ function Gallery() {
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
               <picture>
-                  <source srcSet="../images/libertart-front.webp" />
-                  <img src="../images/libertart-front.jpg" className="img-fluid" alt="libertart-front" loading="lazy"/>
+                  <source srcSet="../images/libertart-front.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                  <img src="../images/libertart-front.jpg" className="img-fluid" alt="libertart-front" loading="lazy" media="screen and (min-width: 1200px)"/>
               </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
               <picture>
-                <source srcSet="../images/libertart-beach.webp" />
-                <img src="../images/libertart-beach.jpg" className="img-fluid" alt="libertart-beach" loading="lazy"/>
+                <source srcSet="../images/libertart-beach.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                <img src="../images/libertart-beach.jpg" className="img-fluid" alt="libertart-beach" loading="lazy" media="screen and (min-width: 1200px)"/>
               </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
               <picture>
-                <source srcSet="../images/libertart-donuts.webp" />
-                <img src="../images/libertart-donuts.jpg" className="img-fluid" alt="libertart-donuts" loading="lazy"/>
+                <source srcSet="../images/libertart-donuts.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                <img src="../images/libertart-donuts.jpg" className="img-fluid" alt="libertart-donuts" loading="lazy" media="screen and (min-width: 1200px)"/>
               </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
               <picture>
-                <source srcSet="../images/libertart-garden.webp" />
-                <img src="../images/libertart-garden.jpg" className="img-fluid" alt="libertart-garden" loading="lazy"/>
+                <source srcSet="../images/libertart-garden.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                <img src="../images/libertart-garden.jpg" className="img-fluid" alt="libertart-garden" loading="lazy" media="screen and (min-width: 1200px)"/>
               </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
               <picture>
-                <source srcSet="../images/libertart-sign.webp" />
-                <img src="../images/libertart-sign.jpg" className="img-fluid" alt="libertart-sign" loading="lazy"/>
+                <source srcSet="../images/libertart-sign.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                <img src="../images/libertart-sign.jpg" className="img-fluid" alt="libertart-sign" loading="lazy" media="screen and (min-width: 1200px)"/>
               </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
               <picture>
-                <source srcSet="../images/libertart-pool.webp" />
-                <img src="../images/libertart-pool.jpg" className="img-fluid" alt="libertart-sign" loading="lazy"/>
+                <source srcSet="../images/libertart-pool.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                <img src="../images/libertart-pool.jpg" className="img-fluid" alt="libertart-sign" loading="lazy" media="screen and (min-width: 1200px)"/>
               </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
               <picture>
-                <source srcSet="../images/libertart-lawnchairs.webp" />
-                <img src="../images/libertart-lawnchairs.jpg" className="img-fluid" alt="libertart-sign" loading="lazy"/>
+                <source srcSet="../images/libertart-lawnchairs.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                <img src="../images/libertart-lawnchairs.jpg" className="img-fluid" alt="libertart-sign" loading="lazy" media="screen and (min-width: 1200px)"/>
               </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
               <picture>
-                <source srcSet="../images/libertart-flowergarden.webp" />
-                <img src="../images/libertart-flowergarden.jpg" className="img-fluid" alt="libertart-sign" loading="lazy"/>
+                <source srcSet="../images/libertart-flowergarden.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                <img src="../images/libertart-flowergarden.jpg" className="img-fluid" alt="libertart-sign" loading="lazy" media="screen and (min-width: 1200px)"/>
               </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
               <picture>
-                <source srcSet="../images/libertart-fort.webp" />
-                <img src="../images/libertart-fort.jpg" className="img-fluid" alt="libertart-sign" loading="lazy"/>
+                <source srcSet="../images/libertart-fort.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                <img src="../images/libertart-fort.jpg" className="img-fluid" alt="libertart-sign" loading="lazy" media="screen and (min-width: 1200px)"/>
               </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
               <picture>
-                <source srcSet="../images/libertart-breakfast.webp" />
-                <img src="../images/libertart-breakfast.jpg" className="img-fluid" alt="libertart-sign" loading="lazy"/>
+                <source srcSet="../images/libertart-breakfast.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                <img src="../images/libertart-breakfast.jpg" className="img-fluid" alt="libertart-sign" loading="lazy" media="screen and (min-width: 1200px)"/>
               </picture>
             </div>
           </div>

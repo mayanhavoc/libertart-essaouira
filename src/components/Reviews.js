@@ -10,80 +10,80 @@ function Reviews() {
             <div className="col">
               <div className="card">
                 <picture>
-                  <source srcSet="../../images/libertart-review1.webp" />
-                  <img src="../../images/libertart-review1.jpg" className="img-fluid" alt="" loading="lazy"/>
+                  <source srcSet="../../images/libertart-review1.webp" media="screen and (max-width: 600px)"media="screen and (max-width: 600px)" loading="lazy"/>
+                  <img src="../../images/libertart-review1.jpg" className="img-fluid" alt="" loading="lazy" media="screen and (min-width: 1200px)"/>
                 </picture>
               </div>
             </div>
             <div className="col">
               <div className="card">
                 <picture>
-                  <source srcSet="../../images/libertart-review2.webp" />
-                  <img src="../../images/libertart-review2.jpg" className="img-fluid" alt="" loading="lazy"/>
+                  <source srcSet="../../images/libertart-review2.webp" media="screen and (max-width: 600px)"media="screen and (max-width: 600px)" loading="lazy"/>
+                  <img src="../../images/libertart-review2.jpg" className="img-fluid" alt="" loading="lazy" media="screen and (min-width: 1200px)"/>
                 </picture>
               </div>
             </div>
             <div className="col">
               <div className="card">
                 <picture>
-                  <source srcSet="../../images/libertart-review3.webp" />
-                  <img src="../../images/libertart-review3.jpg" className="img-fluid" alt="" loading="lazy"/>
+                  <source srcSet="../../images/libertart-review3.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                  <img src="../../images/libertart-review3.jpg" className="img-fluid" alt="" loading="lazy" media="screen and (min-width: 1200px)"/>
                 </picture>
               </div>
             </div>
             <div className="col">
               <div className="card">
                 <picture>
-                  <source srcSet="../../images/libertart-review4-250h.webp" />
-                  <img src="../../images/libertart-review4-250h.jpg" className="img-fluid" alt="" loading="lazy"/>
+                  <source srcSet="../../images/libertart-review4-250h.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                  <img src="../../images/libertart-review4-250h.jpg" className="img-fluid" alt="" loading="lazy" media="screen and (min-width: 1200px)"/>
                 </picture>
               </div>
             </div>
             <div className="col">
               <div className="card">
                 <picture>
-                  <source srcSet="../../images/libertart-review5.webp" />
-                  <img src="../../images/libertart-review5.jpg" className="img-fluid" alt="" loading="lazy"/>
+                  <source srcSet="../../images/libertart-review5.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                  <img src="../../images/libertart-review5.jpg" className="img-fluid" alt="" loading="lazy" media="screen and (min-width: 1200px)"/>
                 </picture>  
               </div>
             </div>
             <div className="col">
               <div className="card">
                 <picture>
-                  <source srcSet="../../images/libertart-review6.webp" />
-                  <img src="../../images/libertart-review6.jpg" className="img-fluid" alt="" loading="lazy"/>
+                  <source srcSet="../../images/libertart-review6.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                  <img src="../../images/libertart-review6.jpg" className="img-fluid" alt="" loading="lazy" media="screen and (min-width: 1200px)"/>
                 </picture> 
               </div>
             </div>
             <div className="col">
               <div className="card">
                 <picture>
-                  <source srcSet="../../images/libertart-review7.webp" />
-                  <img src="../../images/libertart-review7.jpg" className="img-fluid" alt="" loading="lazy"/>
+                  <source srcSet="../../images/libertart-review7.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                  <img src="../../images/libertart-review7.jpg" className="img-fluid" alt="" loading="lazy" media="screen and (min-width: 1200px)"/>
                 </picture> 
               </div>
             </div>
             <div className="col">
               <div className="card">
                 <picture>
-                  <source srcSet="../../images/libertart-review8.webp" />
-                  <img src="../../images/libertart-review8.jpg" className="img-fluid" alt="" loading="lazy"/>
+                  <source srcSet="../../images/libertart-review8.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                  <img src="../../images/libertart-review8.jpg" className="img-fluid" alt="" loading="lazy" media="screen and (min-width: 1200px)"/>
                 </picture> 
               </div>
             </div>
             <div className="col">
               <div className="card">
                 <picture>
-                  <source srcSet="../../images/libertart-review9.webp" />
-                  <img src="../../images/libertart-review9.jpg" className="img-fluid" alt="" loading="lazy"/>
+                  <source srcSet="../../images/libertart-review9.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                  <img src="../../images/libertart-review9.jpg" className="img-fluid" alt="" loading="lazy" media="screen and (min-width: 1200px)"/>
                 </picture>
               </div>
             </div>
             <div className="col">
               <div className="card">
                 <picture>
-                  <source srcSet="../../images/libertart-review10.webp" />
-                  <img src="../../images/libertart-review10.jpg" className="img-fluid" alt="" loading="lazy"/>
+                  <source srcSet="../../images/libertart-review10.webp" media="screen and (max-width: 600px)" loading="lazy"/>
+                  <img src="../../images/libertart-review10.jpg" className="img-fluid" alt="" loading="lazy" media="screen and (min-width: 1200px)"/>
                 </picture>
               </div>
             </div>
