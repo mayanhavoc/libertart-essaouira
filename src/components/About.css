@@ -3,8 +3,7 @@
 }
 
 .about-img {
-	-webkit-filter: grayscale(100%) !important; /* Safari 6.0 - 9.0 */
-	filter: grayscale(100%) !important;
+	max-width: 200px;
 }
 
 @media screen and (min-width: 768px) {

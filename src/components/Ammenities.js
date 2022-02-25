@@ -5,7 +5,7 @@ import './Ammenities.css';
 
 function Ammenities() {
   return (
-    <div id='ammenities'>
+    <div id='ammenities' className='my-5'>
       <div className='container h-100 d-flex flex-column justify-content-center align-items-center'>
         <h1 className='h1 text-center my-5 ammenities-heading'>Ammenities</h1>
         <ul className="secondary-font ammenities-content">

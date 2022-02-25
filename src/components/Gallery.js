@@ -12,52 +12,82 @@ function Gallery() {
         <div className="row" data-masonry='{"percentPosition": true }'>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
-              <img src="../images/libertart-front.jpg" class="card-img-top rounded" alt="..."/>
+              <picture>
+                  <source srcSet="../images/libertart-front.webp" />
+                  <img src="../images/libertart-front.jpg" className="img-fluid" alt="libertart-front" loading="lazy"/>
+              </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
-              <img src="../images/libertart-beach.jpg" class="card-img-top rounded" alt="..."/>
+              <picture>
+                <source srcSet="../images/libertart-beach.webp" />
+                <img src="../images/libertart-beach.jpg" className="img-fluid" alt="libertart-beach" loading="lazy"/>
+              </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
-              <img src="../images/libertart-donuts.jpg" class="card-img-top rounded" alt="..."/>
+              <picture>
+                <source srcSet="../images/libertart-donuts.webp" />
+                <img src="../images/libertart-donuts.jpg" className="img-fluid" alt="libertart-donuts" loading="lazy"/>
+              </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
-              <img src="../images/libertart-garden.jpg" class="card-img-top rounded" alt="..."/>
+              <picture>
+                <source srcSet="../images/libertart-garden.webp" />
+                <img src="../images/libertart-garden.jpg" className="img-fluid" alt="libertart-garden" loading="lazy"/>
+              </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
-              <img src="../images/libertart-sign.jpg" class="card-img-top rounded" alt="..."/>
+              <picture>
+                <source srcSet="../images/libertart-sign.webp" />
+                <img src="../images/libertart-sign.jpg" className="img-fluid" alt="libertart-sign" loading="lazy"/>
+              </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
-              <img src="../images/libertart-pool.jpg" class="card-img-top rounded" alt="..."/>
+              <picture>
+                <source srcSet="../images/libertart-pool.webp" />
+                <img src="../images/libertart-pool.jpg" className="img-fluid" alt="libertart-sign" loading="lazy"/>
+              </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
-              <img src="../images/libertart-lawnchairs.jpg" class="card-img-top rounded" alt="..."/>
+              <picture>
+                <source srcSet="../images/libertart-lawnchairs.webp" />
+                <img src="../images/libertart-lawnchairs.jpg" className="img-fluid" alt="libertart-sign" loading="lazy"/>
+              </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
-              <img src="../images/libertart-flowergarden.jpg" class="card-img-top rounded" alt="..."/>
+              <picture>
+                <source srcSet="../images/libertart-flowergarden.webp" />
+                <img src="../images/libertart-flowergarden.jpg" className="img-fluid" alt="libertart-sign" loading="lazy"/>
+              </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
-              <img src="../images/libertart-fort.jpg" class="card-img-top rounded" alt="..."/>
+              <picture>
+                <source srcSet="../images/libertart-fort.webp" />
+                <img src="../images/libertart-fort.jpg" className="img-fluid" alt="libertart-sign" loading="lazy"/>
+              </picture>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4 mb-1">
             <div className="card">
-              <img src="../images/libertart-breakfast.jpg" class="card-img-top rounded" alt="..."/>
+              <picture>
+                <source srcSet="../images/libertart-breakfast.webp" />
+                <img src="../images/libertart-breakfast.jpg" className="img-fluid" alt="libertart-sign" loading="lazy"/>
+              </picture>
             </div>
           </div>
         </div>

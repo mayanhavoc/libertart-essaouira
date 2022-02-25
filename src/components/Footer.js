@@ -111,8 +111,8 @@ function Footer() {
          className="text-center p-1 text-muted"
          >
       <a className='mx-1 text-muted' href="https://micochango.com/" target='_blank'
-         >powered by <span className="fst-italic fw-bold">micochango</span>  | <a href="https://www.micochango.com/">www.micochango.com</a> 
-         </a>
+         >powered by <span className="fst-italic fw-bold">micochango | www.micochango.com </span>
+      </a>
       © 2022 
     </div>
     {/* <!-- Grid container --> */}

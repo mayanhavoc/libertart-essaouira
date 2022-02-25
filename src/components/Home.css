@@ -1,10 +1,11 @@
 .landing {
-	background: url('../../public/images/libertart-landing-background.jpg')
-		no-repeat center center fixed;
+	background: url('../../public/images/libertart-pool.webp');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: top;
 }
 
 .overlay {
