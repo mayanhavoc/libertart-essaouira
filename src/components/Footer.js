@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -10,7 +10,7 @@ function Footer() {
     <footer className='text-center text-lg-start my-5'>
       {/* <!-- Grid container --> */}
       <div className='media-query-size container flex-row p-4 pb-0 align-items-stretch'>
-        {/* <!-- Section: Links --> */}
+        {/* <!-- Section: NavLinks --> */}
         <section className=''>
           {/* <!--Grid row--> */}
           <div className='row'>
@@ -40,24 +40,24 @@ function Footer() {
             <div className='container d-flex justify-content-center align-items-top'>
               <ul className='list-unstyled mb-0 mx-4'>
                 <li className='mb-1'>
-                  <Link to='#home'>Home</Link>
+                  <NavLink to='/home'>Home</NavLink>
                 </li>
                 <li className='mb-1'>
-                  <Link to='#about'>About us</Link>
+                  <NavLink to='/about'>About us</NavLink>
                 </li>
                 <li className='mb-1'>
-                  <Link to='#gallery'>Gallery</Link>
+                  <NavLink to='/gallery'>Gallery</NavLink>
                 </li>
               </ul>
               <ul className='list-unstyled mb-0'>
                 <li className='mb-1'>
-                  <Link to='#ammenities'>Ammenities</Link>
+                  <NavLink to='/ammenities'>Ammenities</NavLink>
                 </li>
                 <li className='mb-1'>
-                  <Link to='#reviews'>Reviews</Link>
+                  <NavLink to='/reviews'>Reviews</NavLink>
                 </li>
                 <li className='mb-1'>
-                  <Link className='fst-italic fw-bold' to='http://www.booking.com/Share-Dxed51'>Book Now</Link>
+                  <button className='btn-sm btn-success fst-italic fw-bold' to='http://www.booking.com/Share-Dxed51'>Book Now</button>
                 </li>
               </ul>
             </div>
@@ -67,7 +67,7 @@ function Footer() {
         </div>
         {/* <!--Grid row--> */}
       </section>
-      {/* <!-- Section: Links --> */}
+      {/* <!-- Section: NavLinks --> */}
 
       <hr className='mb-4' />
 
@@ -76,7 +76,7 @@ function Footer() {
         <p className='d-flex justify-content-center align-items-center'>
           <span className='me-3'>Reserve your stay today!</span>
           <button type='button' className='btn btn-success btn-rounded'>
-            <Link className='text-white' to='http://www.booking.com/Share-Dxed51' target='_blank' rel='noreferrer'>BOOK NOW</Link>
+            <a className='fst-italic fw-bold text-white' to='http://www.booking.com/Share-Dxed51' target='_blank' rel='noreferrer'>BOOK NOW</a>
           </button>
         </p>
       </section>
@@ -113,7 +113,7 @@ function Footer() {
     <div
          className='text-center p-1 text-muted'
          >
-      <a className='mx-1 text-muted' to='https://micochango.com/' target='_blank'   rel='noreferrer'
+      <a className='mx-1 text-muted' href='https://micochango.com/' target='_blank'   rel='noreferrer'
          >powered by <span className='fst-italic fw-bold'>micochango | www.micochango.com </span>
       </a>
       © 2022 
