@@ -1,24 +1,27 @@
 import React from 'react';
+import Navbar from './Navbar';
+import Footer from './Footer';
 import './Reviews.css';
 
 function Reviews() {
   return (
     <div id="reviews" className='review-height'>
+        <Navbar/>
         <div className="container d-flex flex-column justify-content-around align-items-center">
-          <h1 className="h1 reviews-heading my-5">Reviews</h1>
+          <h1 className="h1 reviews-heading my-5 py-5">Reviews</h1>
           <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
             <div className="col">
               <div className="card">
                 <picture>
-                  <source srcSet="../../images/libertart-review1.webp" media="screen and (max-width: 600px)"media="screen and (max-width: 600px)" loading="lazy"/>
-                  <img src="../../images/libertart-review1.jpg" className="img-fluid" alt="" loading="lazy" media="screen and (min-width: 1200px)"/>
+                  <source srcSet="../../images/libertart-review1.webp" loading="lazy"/>
+                  <img src="../../images/libertart-review1.jpg" className="img-fluid" alt="" loading="lazy" />
                 </picture>
               </div>
             </div>
             <div className="col">
               <div className="card">
                 <picture>
-                  <source srcSet="../../images/libertart-review2.webp" media="screen and (max-width: 600px)"media="screen and (max-width: 600px)" loading="lazy"/>
+                  <source srcSet="../../images/libertart-review2.webp" media="screen and (max-width: 600px)" loading="lazy"/>
                   <img src="../../images/libertart-review2.jpg" className="img-fluid" alt="" loading="lazy" media="screen and (min-width: 1200px)"/>
                 </picture>
               </div>

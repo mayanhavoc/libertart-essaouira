@@ -1,4 +1,6 @@
 import React from 'react';
+import Navbar from './Navbar';
+import Footer from './Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPersonSwimming, faCouch, faEye, faWifi, faCoffee } from '@fortawesome/free-solid-svg-icons';
 import './Ammenities.css';
@@ -6,6 +8,7 @@ import './Ammenities.css';
 function Ammenities() {
   return (
     <div id='ammenities' className='my-5'>
+        <Navbar/>
       <div className='container h-100 d-flex flex-column justify-content-center align-items-center'>
         <h1 className='h1 text-center my-5 ammenities-heading'>Ammenities</h1>
         <ul className="secondary-font ammenities-content">

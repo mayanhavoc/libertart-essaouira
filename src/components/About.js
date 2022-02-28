@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './Navbar';
 import Ammenities from './Ammenities';
 import Reviews from './Reviews';
 import './About.css';
@@ -6,6 +7,7 @@ import './About.css';
 function About() {
   return (
     <section id='about'>
+      <Navbar/>
       <div className='about-container container h-100 d-flex flex-column justify-content-around align-items-center'>
           <h1 className='about-heading mt-5 py-5 h1 text-center'>About</h1>
           <picture>
